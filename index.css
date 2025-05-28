@@ -5,7 +5,7 @@
 
 body {
   box-sizing: border-box;
-  background-color: #fefff2;
+  background-color: white;
   width: 430px;
   border: solid lightgray 1px;
   margin: 0;
@@ -28,7 +28,7 @@ figure#logo {
 #user_name {
   display: flex;
   align-items: center;
-  background-color: #cccccc;
+  background-color: greenyellow;
   margin: 1rem 5px;
   gap: 0.5rem;
   width: fit-content;
@@ -65,19 +65,19 @@ figure#logo {
 }
 
 #upper_menu div:nth-child(1) {
-  background-color: #ef8683;
+  background-color: greenyellow;
 }
 
 #upper_menu div:nth-child(2) {
-  background-color: #ffff91;
+  background-color: greenyellow;
 }
 
 #upper_menu div:nth-child(3) {
-  background-color: #ef86bd;
+  background-color: #86efa0;
 }
 
 #news {
-  background-color: #f0f0f0;
+  background-color: white;
   padding: 0.5rem;
   margin: 1rem 0;
 }
