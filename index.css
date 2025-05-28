@@ -5,7 +5,11 @@
 
 body {
   box-sizing: border-box;
+<<<<<<< HEAD
   background-color: #d5edc7;
+=======
+  background-color: white;
+>>>>>>> 6aca15998a70d80fd6b4fc22b3ca7da7b1c3eec8
   width: 430px;
   border: solid lightgray 1px;
   margin: 0;
@@ -28,7 +32,7 @@ figure#logo {
 #user_name {
   display: flex;
   align-items: center;
-  background-color: #cccccc;
+  background-color: greenyellow;
   margin: 1rem 5px;
   gap: 0.5rem;
   width: fit-content;
@@ -80,7 +84,7 @@ figure#logo {
 }
 
 #news {
-  background-color: #f0f0f0;
+  background-color: white;
   padding: 0.5rem;
   margin: 1rem 0;
 }
