@@ -28,7 +28,7 @@ figure#logo {
 #user_name {
   display: flex;
   align-items: center;
-  background-color: greenyellow;
+  background-color: #ffffff;
   margin: 1rem 5px;
   gap: 0.5rem;
   width: fit-content;
