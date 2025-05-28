@@ -5,7 +5,7 @@
 
 body {
   box-sizing: border-box;
-  background-color: #fefff2;
+  background-color: #d5edc7;
   width: 430px;
   border: solid lightgray 1px;
   margin: 0;
@@ -65,15 +65,18 @@ figure#logo {
 }
 
 #upper_menu div:nth-child(1) {
-  background-color: #ef8683;
+  background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 #upper_menu div:nth-child(2) {
-  background-color: #ffff91;
+  background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 #upper_menu div:nth-child(3) {
-  background-color: #ef86bd;
+  background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 #news {
