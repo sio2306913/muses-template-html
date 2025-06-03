@@ -153,32 +153,39 @@ main#top div {
 
 main#top div:nth-child(1) {
   background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 main#top div:nth-child(2) {
   background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 main#top div:nth-child(3) {
   font-size: 0.6rem;
   background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 main#top div:nth-child(4) {
   background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 main#top div:nth-child(5) {
   background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
-main#top div:nth-child(6) {
+/* main#top div:nth-child(6) {
   background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 main#top div:nth-child(7) {
   background-color: #ffffff;
-}
+  border: solid lightgray 1px;
+} */
 
 footer p {
   font-weight: bold;
