@@ -189,15 +189,22 @@ main#top div:nth-child(7) {
 } */
 
 footer p {
+  /* font-weight: bold; */
+  margin-left: 1rem;
+}
+#information {
   font-weight: bold;
   margin-bottom: 2rem;
 }
 
-#information {
+#classinformation {
   border: solid 1px #feb64a;
   border-radius: 0.5rem;
   height: 5rem;
   background-color: white;
+}
+#classinformation {
+  margin-bottom: 2rem;
 }
 
 .exmark {
