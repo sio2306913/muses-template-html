@@ -189,32 +189,13 @@ main#top div:nth-child(7) {
 } */
 
 footer p {
-  /* font-weight: bold; */
-  margin-left: 1rem;
-}
-#information {
   font-weight: bold;
   margin-bottom: 2rem;
 }
 
-#classinformation {
+#information {
   border: solid 1px #feb64a;
   border-radius: 0.5rem;
   height: 5rem;
   background-color: white;
-}
-
-.exmark {
-  display: inline-block;
-  text-align: center;
-  background-color: #cc0a0b;
-  border-radius: 50%;
-  color: #ffffef;
-  font-size: 0.64rem;
-  width: 1rem;
-}
-
-.mark {
-  grid-column: 1 / 2;
-  grid-row: 2 / 3;
 }
