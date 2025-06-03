@@ -10,14 +10,14 @@ main#info {
 }
 
 #caution {
-  font-size: 1.2rem;
-  font-weight: bold;
+  /* font-size: 1.2rem; */
+  /* font-weight: bold; */
   line-height: 1.2;
-  color: #ff0000;
+  /* color: #ff0000; */
   border-top: solid 0.2rem #808080;
   border-bottom: solid 0.2rem #808080;
   padding: 0.5rem 2rem;
-  margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 #unread_num {
@@ -40,6 +40,9 @@ main#info {
   vertical-align: top;
 }
 
+#info_list > .record:last-child {
+  background-color: lightgray;
+}
 #info_list {
   margin: 0.5rem 0.5rem 1rem;
 }
