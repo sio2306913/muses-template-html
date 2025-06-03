@@ -72,6 +72,7 @@ figure#logo {
 #upper_menu div:nth-child(2) {
   background-color: #ffffff;
   border: solid lightgray 1px;
+  color: #ff1e1e;
 }
 
 #upper_menu div:nth-child(3) {
@@ -152,33 +153,40 @@ main#top div {
 }
 
 main#top div:nth-child(1) {
-  background-color: #f4bab8;
+  background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 main#top div:nth-child(2) {
-  background-color: #f9dcbc;
+  background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 main#top div:nth-child(3) {
   font-size: 0.6rem;
-  background-color: #f3bada;
+  background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 main#top div:nth-child(4) {
-  background-color: #b55c92;
+  background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 main#top div:nth-child(5) {
-  background-color: #bddafa;
+  background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
-main#top div:nth-child(6) {
-  background-color: #c6fddd;
+/* main#top div:nth-child(6) {
+  background-color: #ffffff;
+  border: solid lightgray 1px;
 }
 
 main#top div:nth-child(7) {
-  background-color: #e1febe;
-}
+  background-color: #ffffff;
+  border: solid lightgray 1px;
+} */
 
 footer p {
   font-weight: bold;
