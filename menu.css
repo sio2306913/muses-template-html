@@ -121,3 +121,7 @@ main#info {
   color: #33485e;
   margin-left: 0.5rem;
 }
+
+#classinformation > p {
+  padding: 2em;
+}
