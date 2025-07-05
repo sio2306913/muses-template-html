@@ -44,7 +44,7 @@
     <main id="info">
       <div id="info_header"><img src="img/loupe.gif" />info@MUSES参照</div>
       <div id="info_link">
-        <div id="unread_num"><span class="exmark">!</span>：未読(２件)</div>
+        <div id="unread_num"><span class="exmark">!</span>：未読</div>
         <div id="info_list">
           <div class="record">
             <div class="date">202x/04/20</div>
@@ -63,7 +63,7 @@
             <div class="imp"></div>
             <div class="tri">&nbsp;</div>
             <div class="mark"><span class="exmark">!</span></div>
-            <div class="subject">体育祭に参加しよう！</div>
+            <div class="subject"><a href="taikusai.html">体育祭に参加しよう！</a></div>
           </div>
 
           <div class="record">
@@ -99,5 +99,38 @@
         <p>補講・休講情報 <br />本日は補講も休講もありません。</p>
       </div>
     </footer>
+    
+     <style>
+  /* 既読のとき灰色背景に */
+  .record.read {
+    background-color: #ccc;
+    color: #555;
+  }
+  .record {
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+</style>
+
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const records = document.querySelectorAll('.record');
+    records.forEach(record => {
+      const div = record.lastElementChild;
+      console.log('bbb: '+div);
+      const a = div.firstElementChild;
+      if (a) {
+         const url = a.href;
+        const pageName = url.substring(url.lastIndexOf('/') + 1);
+      console.log('aaa: '+pageName);
+      if (pageName == sessionStorage.visited) {
+        record.style.backgroundColor = 'lightgray'
+      }
+      }
+    });
+  });
+
+    </script>
   </body>
 </html>

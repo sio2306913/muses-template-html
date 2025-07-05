@@ -73,5 +73,12 @@
         <div><a href="menu.html">info@MUSES &gt;</a></div>
       </div>
     </footer>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        const url = location.href;
+        const pageName = url.substring(url.lastIndexOf('/') + 1);
+        sessionStorage.visited = pageName;
+      });
+    </script>
   </body>
 </html>

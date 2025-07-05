@@ -40,9 +40,6 @@ main#info {
   vertical-align: top;
 }
 
-#info_list > .record:last-child {
-  background-color: lightgray;
-}
 #info_list {
   margin: 0.5rem 0.5rem 1rem;
 }
